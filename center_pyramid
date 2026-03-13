@@ -6,3 +6,4 @@ while i <= rows:
     
     print(" "*space + "*"*stars)
     i += 1
+    
