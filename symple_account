@@ -1,0 +1,16 @@
+print(".......Account Registration.......")
+
+username = input("Enter your name: ")
+user_password = input("Enter your password: ")
+
+print("Account created successfully!")
+print("You can log in now.\n")
+
+username2 = input("Enter your name: ")
+user_password2 = input("Enter your password: ")
+
+if username == username2 and user_password == user_password2:
+    print("Login successful!")
+else:
+    print("Invalid username or password.")
+    
